@@ -1,18 +1,25 @@
-FRISKA YANI NATALIA HUTASOIT — PORTFOLIO WEBSITE
+PORTOFOLIO FRISKA YANI NATALIA HUTASOIT
 
-Preview:
-- Open index.html in a modern browser.
-- Keep the assets folder beside index.html.
+ISI FOLDER
+- index.html : halaman website
+- assets/ : seluruh foto asli dan sertifikat Hak Cipta
+- CV_Friska_Yani_Natalia_Hutasoit.pdf : CV yang dapat diunduh dari website
+- Portfolio_Friska_Yani_Natalia_Hutasoit.pdf : portofolio PDF yang dapat diunduh
+- .nojekyll : membantu GitHub Pages menyajikan file statis
 
-Publish with GitHub Pages:
-1. Create a new GitHub repository.
-2. Upload index.html and the complete assets folder.
-3. Open Settings > Pages.
-4. Select Deploy from a branch, choose main and /(root), then Save.
-5. Wait for GitHub Pages to publish the site.
+CARA UPLOAD KE GITHUB PAGES
+1. Unduh ZIP ini lalu ekstrak.
+2. Buka repositori GitHub: https://github.com/ffriska536-collab/friska-portfolio-yn
+3. Masuk ke tab Code.
+4. Unggah semua ISI folder Friska_Portfolio_Final (bukan folder luarnya) ke root repositori. Pastikan index.html sejajar dengan folder assets dan dua PDF.
+5. Jika GitHub menanyakan konflik file lama, pilih replace/overwrite untuk index.html dan folder assets yang sama.
+6. Klik Commit changes.
+7. Tunggu proses GitHub Pages selesai, lalu buka:
+   https://ffriska536-collab.github.io/friska-portfolio-yn/
 
-Before publishing:
-- Replace [Tambahkan alamat email], [Tambahkan domisili], and [Tambahkan nomor kontak].
-- Review all captions and activity descriptions.
-- Add a profile photo if preferred.
-- Check publication/accreditation details against the official journal page before making a public claim.
+PENTING
+- Jangan hanya mengunggah file ZIP; ekstrak dahulu lalu unggah isi folder.
+- Semua alamat foto dan dokumen memakai path relatif sehingga cocok untuk project site GitHub Pages.
+- Foto profil dan dokumentasi disalin apa adanya, tanpa mengedit atau mengubah foto.
+- Email ditampilkan secara publik di website.
+- Klaim Student Grant ditulis berdasarkan keterangan pemilik portofolio. Sertifikat Hak Cipta yang disertakan membuktikan pencatatan karya dan keterlibatan sebagai pencipta, bukan bukti administratif kelulusan pendanaan Student Grant. Jika tersedia, tambahkan SK/pengumuman pendanaan resmi untuk memperkuat klaim.
