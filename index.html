@@ -11,34 +11,7 @@
 header{position:sticky;top:0;z-index:10;background:#0b1515ef;border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:.12em}.brand span{color:var(--gold)}nav{display:flex;gap:20px;color:var(--muted);font-size:13px}.menu{display:none;background:transparent;color:white;border:1px solid var(--line);padding:8px 12px;border-radius:9px;cursor:pointer}
 .hero{padding:85px 0 70px;background:radial-gradient(circle at 80% 20%,#2b5a4a66,transparent 36%)}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:55px;align-items:center}.eyebrow{color:var(--gold);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:800}h1{font-size:clamp(42px,6vw,76px);line-height:.99;letter-spacing:-.055em;margin:18px 0}h1 em{color:var(--teal);font-style:normal}.lead{color:var(--muted);max-width:640px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:99px;border:1px solid var(--line);font-size:13px;font-weight:750;cursor:pointer}.btn.primary{background:var(--gold);color:#18221c;border-color:var(--gold)}.btn.secondary{border-color:#83c6b277;color:var(--teal)}
 .portrait-wrap{position:relative;text-align:center}.portrait-btn{display:block;width:100%;max-width:390px;padding:0;border:0;background:none;cursor:zoom-in;border-radius:20px}.portrait{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center;border-radius:20px;border:1px solid var(--line);box-shadow:0 25px 70px #0008}.photo-note{position:absolute;bottom:16px;left:10px;background:#132423ef;border:1px solid var(--line);padding:9px 14px;border-radius:9px;font-size:11px;pointer-events:none}
-section{padding:72px 0;border-top:1px solid var(--line)}.head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:28px}.head h2{font-size:clamp(30px,4vw,43px);line-height:1.1;margin:8px 0}.head p{max-width:470px;color:var(--muted);font-size:14px}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px}.panel,.skill{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:24px}.panel p{color:var(--muted);font-size:14px}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{border:1px solid #83c6b255;border-radius:99px;padding:6px 11px;color:var(--teal);font-size:11px}.timeline{display:grid;grid-template-columns:1fr 1fr;gap:15px}.timeline h3{margin:5px 0}.timeline p{margin:0}.kicker{font-size:10px;color:var(--gold);font-weight:800;letter-spacing:.15em}.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.skill b{display:block;color:var(--teal);margin-bottom:6px}.skill span{font-size:12px;color:var(--muted)}
-
-/* Studi kasus penelitian */
-.case-intro{margin-bottom:15px}.case-intro h3{font-size:20px;line-height:1.35;margin:6px 0 8px}
-.case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:15px}
-.case-step{position:relative}.case-step h3{margin:4px 0 8px;font-size:17px}.case-step .step-no{position:absolute;top:18px;right:20px;font-size:38px;font-weight:900;color:#ffffff12;line-height:1}
-.results{display:grid;grid-template-columns:1.3fr 1fr;gap:15px;margin-bottom:15px}
-.chart-panel h3{margin:4px 0 20px;font-size:17px}
-.bar-row{margin-bottom:18px}.bar-label{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:7px;font-size:13px}.bar-label span{color:var(--muted);font-size:12px}
-.bar-track{position:relative;height:34px;background:#0b1515;border-radius:8px;overflow:hidden;border:1px solid var(--line)}
-.bar-range{position:absolute;top:0;bottom:0;background:#ffffff14;border-left:1px dashed #ffffff40;border-right:1px dashed #ffffff40}
-.bar-fill{position:absolute;left:0;top:6px;bottom:6px;border-radius:0 6px 6px 0;display:flex;align-items:center;justify-content:flex-end;padding-right:10px;font-weight:800;font-size:13px;color:#18221c}
-.bar-fill.is-ctl{background:var(--gold)}.bar-fill.is-expo{background:var(--teal)}
-.bar-axis{display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:-6px}
-.chart-note{font-size:11.5px;color:var(--muted);margin:12px 0 0}
-.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.stat{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:18px}.stat b{display:block;font-size:28px;line-height:1.1;color:var(--gold);margin-bottom:6px}.stat span{font-size:12px;color:var(--muted);line-height:1.5;display:block}
-.findings{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px}.findings p{margin:6px 0 0}
-.conclusion{border-color:#d7b77b55;background:linear-gradient(120deg,#1d2f2a,#132423)}.conclusion p{color:var(--ink)}.conclusion .skill-used{color:var(--muted);font-size:13px;margin-bottom:0}
-/* Pendekatan mengajar */
-.ctl-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
-.ctl{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:20px;transition:border-color .2s}.ctl:hover{border-color:#83c6b277}
-.ctl > span{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--gold);color:#18221c;font-weight:900;font-size:13px;margin-bottom:12px}
-.ctl b{display:block;color:var(--teal);font-size:16px}.ctl small{display:block;color:var(--gold);font-size:11px;letter-spacing:.06em;margin-bottom:8px;font-style:italic}.ctl p{margin:0;color:var(--muted);font-size:13px}
-.ctl.wide{grid-column:span 2}
-/* Perangkat ajar */
-.tool-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
-.tool-icon{font-size:28px;margin-bottom:8px}.tool h3{margin:4px 0 6px}.tool ul{margin:10px 0 0;padding-left:18px;color:var(--muted);font-size:13px}.tool li{margin-bottom:3px}
+section{padding:72px 0;border-top:1px solid var(--line)}.head{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:28px}.head h2{font-size:clamp(30px,4vw,43px);line-height:1.1;margin:8px 0}.head p{max-width:470px;color:var(--muted);font-size:14px}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px}.panel,.skill{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:24px}.panel p{color:var(--muted);font-size:14px}.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{border:1px solid #83c6b255;border-radius:99px;padding:6px 11px;color:var(--teal);font-size:11px}.timeline{display:grid;grid-template-columns:1fr 1fr;gap:15px}.timeline h3{margin:5px 0}.timeline p{margin:0}.kicker{font-size:10px;color:var(--gold);font-weight:800;letter-spacing:.15em}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.skill b{display:block;color:var(--teal);margin-bottom:6px}.skill span{font-size:12px;color:var(--muted)}
 
 /* Kartu kegiatan + slider */
 .activities-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
@@ -72,64 +45,22 @@ section{padding:72px 0;border-top:1px solid var(--line)}.head{display:flex;justi
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:17px}.contact{background:linear-gradient(120deg,#193a32,#152522);border:1px solid var(--line);border-radius:20px;padding:35px;display:flex;justify-content:space-between;gap:24px;align-items:center}.contact h2{font-size:36px;margin:8px 0}.contact p{color:var(--muted)}footer{padding:25px 0;color:#899b92;font-size:11px;display:flex;justify-content:space-between}
 [hidden]{display:none!important}
 :focus-visible{outline:2px solid var(--gold);outline-offset:2px}
-@media(max-width:800px){.hero-grid,.about{grid-template-columns:1fr}.portrait-btn{max-width:320px}.portrait-wrap{text-align:left}.timeline{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.activities-grid{grid-template-columns:1fr}.case-grid,.results,.findings,.tool-grid{grid-template-columns:1fr}.ctl-grid{grid-template-columns:1fr 1fr}.head{display:block}.contact{display:block}nav{display:none;position:absolute;top:72px;left:0;right:0;background:#0b1515;padding:18px 22px;flex-direction:column}nav.open{display:flex}.menu{display:block}.lb-stage{padding:60px 12px 8px}.lb-nav{width:40px;height:40px;top:auto;bottom:112px;transform:none}.lb-prev{left:12px}.lb-next{right:12px}}
-@media(max-width:480px){.wrap{width:calc(100% - 28px)}.hero{padding:55px 0}.activity-slider{height:260px}.activity-heading{padding:16px 15px 12px}.activity-description{padding:15px}.contact{padding:24px}footer{gap:10px;flex-direction:column}.slider-btn{width:34px;height:34px;font-size:20px}.ctl-grid,.stat-grid{grid-template-columns:1fr}.ctl.wide{grid-column:auto}}
+@media(max-width:800px){.hero-grid,.about{grid-template-columns:1fr}.portrait-btn{max-width:320px}.portrait-wrap{text-align:left}.timeline{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.activities-grid{grid-template-columns:1fr}.head{display:block}.contact{display:block}nav{display:none;position:absolute;top:72px;left:0;right:0;background:#0b1515;padding:18px 22px;flex-direction:column}nav.open{display:flex}.menu{display:block}.lb-stage{padding:60px 12px 8px}.lb-nav{width:40px;height:40px;top:auto;bottom:112px;transform:none}.lb-prev{left:12px}.lb-next{right:12px}}
+@media(max-width:480px){.wrap{width:calc(100% - 28px)}.hero{padding:55px 0}.activity-slider{height:260px}.activity-heading{padding:16px 15px 12px}.activity-description{padding:15px}.contact{padding:24px}footer{gap:10px;flex-direction:column}.slider-btn{width:34px;height:34px;font-size:20px}}
 @media(prefers-reduced-motion:reduce){.track,.lb-stage img{transition:none}html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#home">FRISKA<span>.</span></a><nav id="nav"><a href="#about">Tentang</a><a href="#education">Pendidikan</a><a href="#experience">Pengalaman</a><a href="#research">Penelitian</a><a href="#approach">Mengajar</a><a href="#gallery">Kegiatan</a><a href="#skills">Kompetensi</a><a href="#contact">Kontak</a></nav><button class="menu" id="menu" type="button">Menu</button></div></header>
+<header><div class="wrap nav"><a class="brand" href="#home">FRISKA<span>.</span></a><nav id="nav"><a href="#about">Tentang</a><a href="#education">Pendidikan</a><a href="#experience">Pengalaman</a><a href="#gallery">Kegiatan</a><a href="#skills">Kompetensi</a><a href="#contact">Kontak</a></nav><button class="menu" id="menu" type="button">Menu</button></div></header>
 <main>
 <section class="hero" id="home" style="border:0"><div class="wrap hero-grid"><div><div class="eyebrow">Professional portfolio · 2026</div><h1>FRISKA YANI<br><em>NATALIA</em><br>HUTASOIT</h1><p class="lead">Lulusan Pendidikan Bahasa dan Sastra Indonesia UNIMED dengan minat pada pembelajaran Bahasa Indonesia, literasi, penelitian pendidikan, dan pengabdian masyarakat.</p><div class="actions"><a class="btn primary" href="CV_Friska_Yani_Natalia_Hutasoit.pdf" download>↓ Download CV (PDF)</a><a class="btn secondary" href="Portfolio_Friska_Yani_Natalia_Hutasoit.pdf" download>↓ Download Portofolio (PDF)</a></div></div><div class="portrait-wrap"><button class="portrait-btn" id="heroPhoto" type="button" aria-label="Perbesar foto profil"><img class="portrait" src="assets/profile.png" alt="Foto profil Friska Yani Natalia Hutasoit"></button><div class="photo-note">Pendidikan · Penelitian · Pengabdian</div></div></div></section>
 <section id="about"><div class="wrap"><div class="head"><div><div class="eyebrow">01 / Tentang saya</div><h2>Belajar dengan tujuan.<br><span style="color:var(--teal)">Berkarya dengan makna.</span></h2></div><p>Profil akademik dan pengalaman yang membentuk kemampuan mengajar, berkomunikasi, meneliti, dan bekerja sama.</p></div><div class="about"><div class="panel"><div class="eyebrow">Profil singkat</div><p>Saya merupakan lulusan Pendidikan Bahasa dan Sastra Indonesia Universitas Negeri Medan tahun 2026. Saya memiliki ketertarikan pada dunia pendidikan, penguatan literasi, pengembangan media pembelajaran, serta kegiatan penelitian dan pengabdian kepada masyarakat. Pengalaman KKN, volunteer, PLP, dan penelitian membantu saya mengembangkan komunikasi, kolaborasi, tanggung jawab, dan kemampuan mendampingi proses belajar.</p></div><div class="panel" id="education"><div class="eyebrow">Pendidikan & bidang keilmuan</div><h3>S-1 Pendidikan Bahasa dan Sastra Indonesia</h3><p><b>Universitas Negeri Medan (UNIMED) · 2026</b></p><p>Program studi ini memadukan penguasaan bahasa Indonesia, apresiasi sastra, dan ilmu pendidikan. Kompetensi yang dikembangkan mencakup keterampilan menyimak, berbicara, membaca, dan menulis; pemahaman tata bahasa dan teks; apresiasi karya sastra; perencanaan pembelajaran; pemilihan model serta media ajar; evaluasi pembelajaran; dan penelitian pendidikan.</p><div class="tags"><span class="tag">Pendidikan Bahasa</span><span class="tag">Sastra Indonesia</span><span class="tag">Literasi</span><span class="tag">Strategi Pembelajaran</span><span class="tag">Penelitian Pendidikan</span></div></div></div></div></section>
 <section id="experience"><div class="wrap"><div class="head"><div><div class="eyebrow">02 / Pengalaman</div><h2>Pengalaman yang membentuk.</h2></div><p>Keterlibatan dalam lingkungan sekolah, masyarakat, dan kegiatan akademik.</p></div><div class="timeline"><div class="panel"><div class="kicker">PENGALAMAN SEKOLAH · PLP</div><h3>SMK Negeri 1 Percut Sei Tuan</h3><p>Mengikuti Pengenalan Lapangan Persekolahan untuk mengenal budaya sekolah, kegiatan pembelajaran, interaksi dengan peserta didik, serta kolaborasi dengan guru dan warga sekolah.</p></div><div class="panel"><div class="kicker">KKN · 2025</div><h3>KKN UNIMED LABURA — Desa Marbau</h3><p>Menjalankan peran Humas dengan mewawancarai warga untuk menggali potensi dan permasalahan desa. Terlibat dalam program penanaman TOGA, gotong royong, dan pendampingan belajar anak-anak setiap sore.</p></div><div class="panel"><div class="kicker">VOLUNTEER · SEP 2024–JAN 2025</div><h3>Rumah Internet (RUMNET)</h3><p>Berpartisipasi dalam pengabdian masyarakat Angkatan ke-10. Memperoleh sertifikat penghargaan atas kontribusi dalam kegiatan tersebut.</p></div><div class="panel"><div class="kicker">PENELITIAN · 2024</div><h3>Penelitian Budaya Humbang Hasundutan</h3><p>Terlibat dalam kajian tradisi Memeakhon Batu Ojahan dalam pembangunan rumah masyarakat Batak Toba. Artikel terbit pada Jurnal Adat dan Budaya Vol. 6 No. 2 Tahun 2024 (terakreditasi SINTA 3).</p></div></div></div></section>
-<section id="research"><div class="wrap"><div class="head"><div><div class="eyebrow">03 / Penelitian &amp; karya</div><h2>Riset yang berangkat<br>dari pertanyaan.</h2></div><p>Skripsi yang menguji apakah pembelajaran yang dekat dengan kehidupan siswa dapat menghasilkan tulisan yang lebih baik.</p></div>
-<div class="panel case-intro"><div class="kicker">SKRIPSI · UNIMED · 2026</div><h3>Pengaruh Model Contextual Teaching and Learning (CTL) terhadap Kemampuan Menulis Teks Eksplanasi Siswa Kelas IX SMP Negeri 37 Medan</h3><p>Dibimbing oleh Ibu Atika Wasilah, S.Pd., M.Pd. · Program Studi Pendidikan Bahasa dan Sastra Indonesia, Fakultas Bahasa dan Seni, Universitas Negeri Medan.</p></div>
-<div class="case-grid">
-  <div class="panel case-step"><span class="step-no">1</span><div class="kicker">LATAR BELAKANG</div><h3>Masalah di kelas</h3><p>Banyak siswa kesulitan menguraikan hubungan sebab-akibat secara runtut dalam teks eksplanasi. Pembelajaran yang masih berpusat pada guru membuat siswa cenderung mengulang contoh yang diberikan, padahal Kurikulum Merdeka menuntut pembelajaran yang aktif dan bermakna.</p></div>
-  <div class="panel case-step"><span class="step-no">2</span><div class="kicker">DESAIN PENELITIAN</div><h3>Quasi-eksperimen</h3><p>Penelitian kuantitatif dengan desain <i>Two Group Post-test Design</i> pada tahun ajaran 2025/2026. Dari populasi 183 siswa kelas IX, dipilih secara acak kelas <b>IX-E</b> sebagai kelas eksperimen (model CTL) dan kelas <b>IX-F</b> sebagai kelas kontrol (model ekspositori), masing-masing 30 siswa.</p></div>
-  <div class="panel case-step"><span class="step-no">3</span><div class="kicker">INSTRUMEN</div><h3>Tes unjuk kerja menulis</h3><p>Tulisan siswa dinilai dengan rubrik lima aspek: struktur teks, isi teks, kosakata, kaidah kebahasaan, serta ejaan dan tata bahasa. Data dianalisis dengan statistik deskriptif, uji normalitas Shapiro-Wilk, uji homogenitas Levene, dan uji-t <i>Independent Sample</i>.</p></div>
-</div>
-<div class="results">
-  <div class="panel chart-panel"><div class="kicker">HASIL POST-TEST</div><h3>Perbandingan rata-rata nilai</h3>
-    <div class="bar-row"><div class="bar-label"><b>Kelas CTL (IX-E)</b><span>Kategori baik · rentang 65–95</span></div><div class="bar-track"><div class="bar-range" style="left:65%;width:30%"></div><div class="bar-fill is-ctl" style="width:77.5%"><span>77,50</span></div></div></div>
-    <div class="bar-row"><div class="bar-label"><b>Kelas Ekspositori (IX-F)</b><span>Kategori cukup baik · rentang 55–85</span></div><div class="bar-track"><div class="bar-range" style="left:55%;width:30%"></div><div class="bar-fill is-expo" style="width:69.5%"><span>69,50</span></div></div></div>
-    <div class="bar-axis"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
-    <p class="chart-note">Batang menunjukkan nilai rata-rata, sedangkan area samar menunjukkan rentang nilai terendah hingga tertinggi di setiap kelas.</p>
-  </div>
-  <div class="stat-grid">
-    <div class="stat"><b>+8,00</b><span>selisih rata-rata nilai kelas CTL dibandingkan kelas ekspositori</span></div>
-    <div class="stat"><b>3,958</b><span>t hitung, lebih besar dari t tabel 2,002 (α = 0,05; df = 58)</span></div>
-    <div class="stat"><b>0,001</b><span>nilai signifikansi (&lt; 0,05): H₀ ditolak, Hₐ diterima</span></div>
-    <div class="stat"><b>✓</b><span>data berdistribusi normal (sig. 0,145 dan 0,264) dan homogen (sig. 0,941)</span></div>
-  </div>
-</div>
-<div class="findings">
-  <div class="panel"><div class="kicker">TEMUAN · KELAS EKSPOSITORI</div><p>Deretan penjelas umumnya singkat dan sekadar mengulang contoh dari guru. Banyak siswa tidak menulis bagian interpretasi, sehingga teks berakhir tanpa penutup. Kesalahan huruf kapital, kata depan, ejaan, dan tanda baca juga masih sering ditemukan.</p></div>
-  <div class="panel"><div class="kicker">TEMUAN · KELAS CTL</div><p>Siswa mengamati fenomena nyata dan menelusuri sebab-akibatnya sendiri, sehingga deretan penjelas tersusun lebih runtut, logis, dan faktual. Struktur teks lebih lengkap, dan konjungsi kausal maupun kronologis digunakan dengan lebih tepat.</p></div>
-</div>
-<div class="panel conclusion"><div class="kicker">KESIMPULAN</div><p>Model Contextual Teaching and Learning berpengaruh signifikan terhadap kemampuan menulis teks eksplanasi siswa kelas IX SMP Negeri 37 Medan. Hasil ini menunjukkan bahwa pembelajaran yang dikaitkan dengan pengalaman nyata siswa dapat membantu mereka menghasilkan tulisan yang lebih utuh dan bermakna.</p><p class="skill-used"><b>Kompetensi yang digunakan:</b> perancangan penelitian, penyusunan modul ajar dan instrumen tes, penyusunan rubrik penilaian, observasi pembelajaran, analisis statistik, dan penulisan ilmiah.</p></div>
-</div></section>
-<section id="approach"><div class="wrap"><div class="head"><div><div class="eyebrow">04 / Pendekatan mengajar</div><h2>Belajar dari yang dekat<br><span style="color:var(--teal)">dengan kehidupan siswa.</span></h2></div><p>Tujuh komponen CTL yang saya terapkan di kelas, dengan contoh pembelajaran teks eksplanasi bertema fenomena banjir.</p></div>
-<div class="ctl-grid">
-  <div class="ctl"><span>01</span><b>Konstruktivisme</b><small>Constructivism</small><p>Mengaitkan materi dengan fenomena yang dekat dengan siswa, seperti banjir, hujan, atau gempa bumi, agar siswa membangun pemahaman dari pengalamannya sendiri.</p></div>
-  <div class="ctl"><span>02</span><b>Menemukan</b><small>Inquiry</small><p>Siswa menelusuri penyebab, proses terjadinya, dan akibat suatu fenomena, sehingga isi tulisan lahir dari temuan sendiri, bukan hafalan.</p></div>
-  <div class="ctl"><span>03</span><b>Bertanya</b><small>Questioning</small><p>Pertanyaan pemantik mengarahkan siswa untuk berpikir kritis, dan siswa didorong untuk menanyakan hal yang belum dipahami.</p></div>
-  <div class="ctl"><span>04</span><b>Masyarakat Belajar</b><small>Learning Community</small><p>Diskusi kelompok untuk bertukar informasi, menanggapi pendapat teman, dan memperkaya kosakata teknis.</p></div>
-  <div class="ctl"><span>05</span><b>Pemodelan</b><small>Modeling</small><p>Contoh teks eksplanasi digunakan untuk membedah struktur (pernyataan umum, deretan penjelas, interpretasi) dan kaidah kebahasaannya.</p></div>
-  <div class="ctl"><span>06</span><b>Refleksi</b><small>Reflection</small><p>Siswa dan guru meninjau kembali materi, menyimpulkan pemahaman, dan mengidentifikasi kesulitan sebelum siswa mulai menulis.</p></div>
-  <div class="ctl wide"><span>07</span><b>Penilaian Autentik</b><small>Authentic Assessment</small><p>Siswa dinilai dari kemampuan menghasilkan teks eksplanasi secara mandiri, bukan sekadar mengingat materi, menggunakan rubrik yang jelas dan terukur.</p></div>
-</div></div></section>
-<section id="tools"><div class="wrap"><div class="head"><div><div class="eyebrow">05 / Perangkat ajar</div><h2>Perangkat yang saya susun.</h2></div><p>Perangkat pembelajaran dan penilaian yang saya rancang dan gunakan dalam penelitian skripsi di SMP Negeri 37 Medan.</p></div>
-<div class="tool-grid">
-  <div class="panel tool"><div class="tool-icon">📘</div><div class="kicker">KURIKULUM MERDEKA</div><h3>Modul Ajar</h3><p>Dua modul ajar Bahasa Indonesia kelas IX untuk materi teks eksplanasi, masing-masing dengan model CTL dan model ekspositori.</p><ul><li>Capaian Pembelajaran (CP)</li><li>Alur Tujuan Pembelajaran (ATP)</li><li>Langkah pembelajaran dan sumber belajar</li></ul></div>
-  <div class="panel tool"><div class="tool-icon">📝</div><div class="kicker">PENILAIAN</div><h3>Rubrik Menulis Teks Eksplanasi</h3><p>Rubrik analitik dengan skala 1–4 untuk menilai tulisan siswa secara objektif dan konsisten.</p><ul><li>Struktur teks dan isi teks</li><li>Kosakata dan kaidah kebahasaan</li><li>Ejaan dan tata bahasa</li></ul></div>
-  <div class="panel tool"><div class="tool-icon">🔍</div><div class="kicker">OBSERVASI</div><h3>Lembar Observasi</h3><p>Instrumen untuk memantau keterlaksanaan sintaks pembelajaran CTL di kelas.</p><ul><li>Lembar observasi aktivitas guru</li><li>Lembar observasi aktivitas siswa</li></ul></div>
-</div></div></section>
-<section id="gallery"><div class="wrap"><div class="head"><div><div class="eyebrow">06 / Dokumentasi kegiatan</div><h2>Perjalanan, pengalaman,<br>dan kontribusi.</h2></div><p>Geser atau gunakan tombol panah untuk berpindah foto. Klik foto untuk memperbesar.</p></div>
+<section id="research"><div class="wrap"><div class="head"><div><div class="eyebrow">03 / Penelitian & karya</div><h2>Riset yang berangkat<br>dari pertanyaan.</h2></div><p>Pengalaman merancang penelitian, mengolah informasi, dan menyampaikan temuan secara sistematis.</p></div><div class="panel"><div class="kicker">SKRIPSI · UNIMED · 2026</div><h3>Pengaruh Model Contextual Teaching and Learning (CTL) terhadap Kemampuan Menulis Teks Eksplanasi Siswa Kelas IX SMP Negeri 37 Medan</h3><p>Penelitian kuantitatif dengan metode quasi-eksperimental dan desain Two Group Post-test Design. Penelitian melibatkan kelas eksperimen dan kelas kontrol, masing-masing 30 siswa. Hasil menunjukkan rata-rata post-test kelas CTL sebesar 77,50, sedangkan kelas ekspositori 69,50. Uji hipotesis menunjukkan hasil signifikan (sig. 0,001), sehingga penelitian mendukung adanya pengaruh penggunaan model CTL terhadap kemampuan menulis teks eksplanasi pada kelompok yang diteliti.</p><p><b>Kompetensi yang digunakan:</b> perancangan penelitian, penyusunan instrumen tes, penilaian struktur dan kaidah kebahasaan teks, pengolahan data, interpretasi hasil statistik, dan penulisan ilmiah.</p></div></div></section>
+<section id="gallery"><div class="wrap"><div class="head"><div><div class="eyebrow">04 / Dokumentasi kegiatan</div><h2>Perjalanan, pengalaman,<br>dan kontribusi.</h2></div><p>Geser atau gunakan tombol panah untuk berpindah foto. Klik foto untuk memperbesar.</p></div>
 <div class="activities-grid" id="activities"></div></div></section>
-<section id="skills"><div class="wrap"><div class="head"><div><div class="eyebrow">07 / Kompetensi</div><h2>Kemampuan yang saya bawa.</h2></div><p>Kompetensi akademik, pedagogik, komunikasi, dan digital yang relevan untuk lingkungan pendidikan.</p></div><div class="skills"><div class="skill"><b>Microsoft Office — Mahir</b><span>Pengolahan dokumen, presentasi, dan lembar kerja.</span></div><div class="skill"><b>Canva — Mahir</b><span>Desain media presentasi dan materi visual pembelajaran.</span></div><div class="skill"><b>Modul Ajar Kurikulum Merdeka</b><span>Menyusun CP, ATP, langkah pembelajaran, dan asesmen.</span></div><div class="skill"><b>Bahasa & Literasi</b><span>Keterampilan menyimak, berbicara, membaca, dan menulis.</span></div><div class="skill"><b>Penilaian Autentik</b><span>Merancang rubrik analitik dan tes unjuk kerja yang terukur.</span></div><div class="skill"><b>Penelitian Pendidikan</b><span>Desain quasi-eksperimen, instrumen, uji statistik, dan penulisan ilmiah.</span></div><div class="skill"><b>Model Pembelajaran Inovatif</b><span>Penerapan CTL dan pembelajaran berpusat pada siswa.</span></div><div class="skill"><b>Komunikasi & Kolaborasi</b><span>Wawancara, koordinasi, kerja tim, dan interaksi masyarakat.</span></div></div></div></section>
-<section id="contact"><div class="wrap"><div class="contact"><div><div class="eyebrow">08 / Kontak</div><h2>Mari terhubung.</h2><p>Terbuka untuk kesempatan mengajar, kolaborasi pendidikan, dan pengembangan profesional.</p></div><div><p>✉ <a href="mailto:ffriska536@gmail.com">ffriska536@gmail.com</a></p><a class="btn primary" href="mailto:ffriska536@gmail.com">Kirim Email ↗</a></div></div></div></section>
+<section id="skills"><div class="wrap"><div class="head"><div><div class="eyebrow">05 / Kompetensi</div><h2>Kemampuan yang saya bawa.</h2></div><p>Kompetensi akademik, pedagogik, komunikasi, dan digital yang relevan untuk lingkungan pendidikan.</p></div><div class="skills"><div class="skill"><b>Microsoft Office — Mahir</b><span>Pengolahan dokumen, presentasi, dan lembar kerja.</span></div><div class="skill"><b>Canva — Mahir</b><span>Desain media presentasi dan materi visual pembelajaran.</span></div><div class="skill"><b>Perencanaan Pembelajaran</b><span>Menyusun tujuan, materi, aktivitas, dan evaluasi pembelajaran.</span></div><div class="skill"><b>Bahasa & Literasi</b><span>Keterampilan menyimak, berbicara, membaca, dan menulis.</span></div><div class="skill"><b>Penelitian Pendidikan</b><span>Instrumen, pengumpulan data, analisis, dan penulisan ilmiah.</span></div><div class="skill"><b>Komunikasi & Kolaborasi</b><span>Wawancara, koordinasi, kerja tim, dan interaksi masyarakat.</span></div></div></div></section>
+<section id="contact"><div class="wrap"><div class="contact"><div><div class="eyebrow">06 / Kontak</div><h2>Mari terhubung.</h2><p>Terbuka untuk kesempatan mengajar, kolaborasi pendidikan, dan pengembangan profesional.</p></div><div><p>✉ <a href="mailto:ffriska536@gmail.com">ffriska536@gmail.com</a></p><a class="btn primary" href="mailto:ffriska536@gmail.com">Kirim Email ↗</a></div></div></div></section>
 </main>
 <footer class="wrap"><span>© 2026 Friska Yani Natalia Hutasoit</span><span>Portfolio · Education / Research / Community</span></footer>
 
@@ -245,22 +176,13 @@ document.addEventListener('keydown', e => {
   else if (e.key === 'ArrowLeft' && lbItems.length > 1) lbShow(lbIndex - 1);
   else if (e.key === 'ArrowRight' && lbItems.length > 1) lbShow(lbIndex + 1);
 });
-/* Deteksi geser: sentuhan jari (HP) dan drag mouse (laptop) */
-function onSwipe(el, cb, min) {
-  let x0 = null, y0 = null;
-  const start = (x, y, t) => { if (t.closest && t.closest('.slider-btn, .lb-nav, .lb-close')) return; x0 = x; y0 = y; };
-  const end = (x, y) => {
-    if (x0 === null) return;
-    const dx = x - x0, dy = y - y0; x0 = null;
-    if (Math.abs(dx) > min && Math.abs(dx) > Math.abs(dy)) cb(dx < 0 ? 1 : -1);
-  };
-  el.addEventListener('touchstart', e => start(e.touches[0].clientX, e.touches[0].clientY, e.target), { passive: true });
-  el.addEventListener('touchend', e => end(e.changedTouches[0].clientX, e.changedTouches[0].clientY));
-  el.addEventListener('touchcancel', () => { x0 = null; });
-  el.addEventListener('mousedown', e => start(e.clientX, e.clientY, e.target));
-  el.addEventListener('mouseup', e => end(e.clientX, e.clientY));
-}
-onSwipe(lbStage, dir => { if (!lbImg.classList.contains('zoomed') && lbItems.length > 1) lbShow(lbIndex + dir); }, 60);
+let lbX = null;                                                                      // swipe di lightbox
+lbStage.addEventListener('pointerdown', e => { if (!lbImg.classList.contains('zoomed')) lbX = e.clientX; });
+lbStage.addEventListener('pointerup', e => {
+  if (lbX === null) return;
+  const dx = e.clientX - lbX; lbX = null;
+  if (Math.abs(dx) > 60 && lbItems.length > 1) lbShow(lbIndex + (dx < 0 ? 1 : -1));
+});
 
 /* ============ KARTU + SLIDER ============ */
 const grid = document.getElementById('activities');
@@ -282,7 +204,7 @@ grid.querySelectorAll('.activity-slider').forEach(slider => {
   const a = ACTIVITIES[slider.dataset.a], n = a.slides.length;
   const track = slider.querySelector('.track'), ind = slider.querySelector('.slider-indicator'), dots = slider.querySelectorAll('.dots i');
   const capEl = slider.parentElement.querySelector('.slide-caption');
-  let idx = 0, swipedAt = 0;
+  let idx = 0, startX = null, dragged = false;
 
   function go(i) {
     idx = (i + n) % n;
@@ -296,7 +218,13 @@ grid.querySelectorAll('.activity-slider').forEach(slider => {
   slider.querySelector('.prev')?.addEventListener('click', () => go(idx - 1));
   slider.querySelector('.next')?.addEventListener('click', () => go(idx + 1));
 
-  onSwipe(slider, dir => { if (n > 1) { swipedAt = Date.now(); go(idx + dir); } }, 40);
+  slider.addEventListener('pointerdown', e => { if (e.target.closest('.slider-btn')) return; startX = e.clientX; dragged = false; });
+  slider.addEventListener('pointerup', e => {
+    if (startX === null) return;
+    const dx = e.clientX - startX; startX = null;
+    if (Math.abs(dx) > 40 && n > 1) { dragged = true; go(idx + (dx < 0 ? 1 : -1)); }
+  });
+  slider.addEventListener('pointercancel', () => { startX = null; });
   slider.addEventListener('keydown', e => {
     if (n < 2) return;
     if (e.key === 'ArrowLeft') go(idx - 1); else if (e.key === 'ArrowRight') go(idx + 1);
@@ -304,7 +232,7 @@ grid.querySelectorAll('.activity-slider').forEach(slider => {
 
   slider.querySelectorAll('.slide').forEach(btn => {
     btn.addEventListener('click', () => {
-      if (Date.now() - swipedAt < 400) return;             // geseran bukan klik
+      if (dragged) { dragged = false; return; }            // geseran bukan klik
       lbOpen(a.slides, +btn.dataset.s, btn);
     });
     btn.querySelector('img').addEventListener('error', () => {   // file belum diupload → pesan jelas
